@@ -3,9 +3,13 @@
 redis:
  redis_password: very-strong
  database_service_name: quotes-store
- redis_version: 6-el9
+ redis_version: -6-c9s:c9s
 
 quotes:
+<<<<<<< HEAD
   image: registry.ocp4.example.com:8443/redhattraining/ocpdev-redis-quotes:4.12
+=======
+  image: registry.ocp4.example.com:8443/redhattraining/ocpdev-redis-quotes:4.18
+>>>>>>> cc8cc5c57f891eaaee6310ddb6028980fe98a446
   import:
     enabled: true

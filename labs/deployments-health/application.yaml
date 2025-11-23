@@ -19,7 +19,11 @@ spec:
         deployment: expense
     spec:
       containers:
+<<<<<<< HEAD
       - image: registry.ocp4.example.com:8443/redhattraining/ocpdev-expense-service-health:4.12
+=======
+      - image: registry.ocp4.example.com:8443/redhattraining/ocpdev-expense-service-health:4.18
+>>>>>>> cc8cc5c57f891eaaee6310ddb6028980fe98a446
         imagePullPolicy: Always
         name: expense
         ports:

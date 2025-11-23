@@ -18,7 +18,7 @@ spec:
       default: "https://git.ocp4.example.com/developer/DO288-apps"
     - name: GIT_REVISION
       type: string
-      default: "master"
+      default: "main"
     - name: APP_PATH
       type: string
       default: "apps/compreview-cicd/words"
@@ -27,24 +27,24 @@ spec:
       # TODO
       params:
         # TODO
-        - name: deleteExisting
+        - name: DELETE_EXISTING
           value: "true"
-        - name: sslVerify
+        - name: SSL_VERIFY
           value: "false"
       workspaces:
         # TODO
 
     - name: npm-install
-    # TODO
+      # TODO
 
     - name: npm-test
-    # TODO
+      # TODO
 
     - name: npm-lint
-    # TODO
+      # TODO
 
     - name: build-push-image
-    # TODO
+      # TODO
 
     - name: oc-deploy
-    # TODO
+      # TODO
